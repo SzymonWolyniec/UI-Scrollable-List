@@ -1,0 +1,18 @@
+.controlsBackground {
+    background-color: rgba(255, 255, 255, 0.39);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.ImageInfoText {
+    color: rgba(0, 0, 0, 255);
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=a066a68355881f940b684c52ca1f88d9&type=3#NotInter-Regular');
+    margin-bottom: 10px;
+    font-size: 12px;
+}
