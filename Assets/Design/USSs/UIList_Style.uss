@@ -13,6 +13,7 @@
 .ImageInfoText {
     color: rgba(0, 0, 0, 255);
     -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=a066a68355881f940b684c52ca1f88d9&type=3#NotInter-Regular');
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-size: 12px;
 }
+
