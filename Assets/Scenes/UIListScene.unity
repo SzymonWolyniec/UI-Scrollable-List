@@ -217,8 +217,9 @@ GameObject:
   m_Component:
   - component: {fileID: 844008710}
   - component: {fileID: 844008709}
+  - component: {fileID: 844008711}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: UIDocument [Scripts Manager]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,7 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: 075c747d95e8ea1479b4a8e08257f99a, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: c86acc5c39619144e9b89f5069d01879, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 60f071bcd6b84914cbb8e97ad0ce261c, type: 3}
   m_SortingOrder: 0
 --- !u!4 &844008710
 Transform:
@@ -255,3 +256,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844008711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844008708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c320f30bc150514e903202a4a27152b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _filesDirectoryPath: C:\Users\Szymon\Desktop\ImagesSample
+  poolSize: 20
+  _singleListItem: {fileID: 9197481963319205126, guid: c86acc5c39619144e9b89f5069d01879, type: 3}
